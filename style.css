@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0 auto;
+
+}
+
+.container {
+    width: 100%;
+}
+
+.columns {
+    display: flex;
+}
+
+.columns-bottom {
+    display: flex;
+
+}
+
+.col {
+    border: 2px solid pink;
+}
+
+.col-center {
+    width: 50%;
+}
+
+.col-sides {
+    width: 25%;
+}
+
+.col-left {
+    width: 75%;
+}
+
+.col-right {
+    width: 25%;
+}
