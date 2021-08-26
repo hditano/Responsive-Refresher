@@ -4,15 +4,23 @@
 
 header {
     margin: 0 auto;
+    border: 2px solid black;
+    text-align: center;
 
+}
+
+img {
+    width: 98%;
 }
 
 .container {
     width: 100%;
+    background-color: pink;
 }
 
 .columns {
     display: flex;
+    margin: 0em 1em;
 }
 
 .columns-bottom {
@@ -22,20 +30,32 @@ header {
 
 .col {
     border: 2px solid pink;
+    margin: 1em .5em;
+    padding-top: 0em;
+    margin-bottom: 0;
 }
 
 .col-center {
     width: 50%;
 }
 
-.col-sides {
+.col-small-left {
     width: 25%;
+}
+
+.col-sides {
+    color: rgb(199, 116, 199);
+    width: 25%;
+    background-color: rgb(128, 7, 128);
+    padding: 1em 2em;
+    font-weight: 600;
 }
 
 .col-left {
-    width: 75%;
+    width: 25%;
 }
 
-.col-right {
-    width: 25%;
+.col-bottom-left {
+    width: 75%;
+    margin-top: 0;
 }
