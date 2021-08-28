@@ -2,6 +2,18 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 600px) {
+    body {
+        background-color: purple;   
+    }
+
+    .columns {
+        flex-direction: column;
+
+    }
+    
+}
+
 body {
     font-size: 1.125rem;
     color: #707070;
@@ -30,7 +42,7 @@ p {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3rem;    
     text-align: center;
 }
 
@@ -57,4 +69,20 @@ h2 {
 
 .col-3 {
     width: 70%;
+}
+
+@media (max-width: 600px) {
+    .col-1, .col-2, .col-3 {
+        width: 100%;
+        margin: 0 .5em;
+    }
+    h2 {
+        text-align: center;
+    }
+    .columns {
+        margin-top: .5em;
+    }
+    .columns-sides {
+        margin: 0 1em;
+    }
 }
