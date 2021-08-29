@@ -20,6 +20,29 @@ body {
     margin: 0;
 }
 
+header{
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    color: #143774;
+    margin-bottom: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    padding: 0 .5em;
+    list-style-type: none;
+    text-align: center;
+}
 
 img {
     width: 100%;
@@ -41,7 +64,7 @@ p {
     justify-content: space-between;
 }
 
-h1 {
+.container h1 {
     font-size: 3rem;    
     text-align: center;
 }
@@ -71,18 +94,23 @@ h2 {
     width: 70%;
 }
 
-@media (max-width: 600px) {
-    .col-1, .col-2, .col-3 {
-        width: 100%;
-        margin: 0 .5em;
+
+@media (max-width: 675px) {
+    body {
+        background-color: rgb(154, 154, 189);
     }
-    h2 {
-        text-align: center;
+
+    nav ul {
+        display: block;
     }
-    .columns {
-        margin-top: .5em;
+
+    li {
+        padding: .4em 0;
+        margin: 0;
     }
-    .columns-sides {
-        margin: 0 1em;
+
+    li a {
+        list-style-type: none;
+        text-decoration: none;
     }
 }
